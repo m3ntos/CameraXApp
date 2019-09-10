@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp"
+    tools:context=".MainActivity"
+    >
+
+
+    <Button
+        android:id="@+id/btnImageFromIntent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get image from intent (no camera x)"
+        />
+
+    <Button
+        android:id="@+id/btnPreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="camera x preview"
+        />
+
+    <Button
+        android:id="@+id/btnImageCapture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="camera x image capture"
+        />
+
+    <Button
+        android:id="@+id/btnImageAnalysis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="camera x image analysis"
+        />
+
+    <Button
+        android:id="@+id/btnVendorExtensions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="camera x vendor extensions"
+        />
+
+    <Button
+        android:id="@+id/btnCameraView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="camera x camera view"
+        />
+
+</LinearLayout>
